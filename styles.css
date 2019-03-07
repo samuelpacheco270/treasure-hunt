@@ -1,0 +1,35 @@
+body{
+    background: #fff5e5;   
+}
+.all-text{
+    font-family: Comic Sans MS;
+}
+.Maint{
+    text-align: center;
+}
+#header{
+    background:#ffffff;
+    border-radius: 20px;
+     display:flex;
+    justify-content: center;
+}
+.head{
+    text-align: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color: white;
+    background: blue;
+    padding:20px;
+    border-radius: 80px;
+    
+    }
+ #main{
+ display: flex;
+ justify-content:center;
+}
+.hide{
+    display:none;
+}
+.info{
+    text-align:center;
+    text-decoration:underline;
+}
