@@ -1,0 +1,20 @@
+$(".shotOne").click(function(){
+    $(".blocked").show();
+    $(".shotOne").hide();
+});
+$(".blocked").dblclick(function(){
+    $("#tTwo").show();
+    $("#tOne").hide();
+});
+$("h1").click(function(){
+    $(".scoreOne").show();
+    $(".checked").hide();
+    });
+$(".scoreOne").mouseenter(function(){
+    $("#tThree").show();
+    $("#tTwo").hide();
+}); 
+$(".scoreTwo").mouseleave(function(){
+    $(".Celly").show();
+    $(".scoreTwo").hide();
+}); 
